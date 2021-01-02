@@ -1,0 +1,97 @@
+
+
+/* :root {
+    --image-1:url("https://image.tmdb.org/t/p/original/titles" + trending.poster_path)
+} */
+
+
+.wrapper{
+    display: flex;
+}
+
+.jumbo_header{
+    position: relative;
+    background-image: url("E:\Coding_Dojo\MERN_Stack\HULU_CLONE_2\hulu_clone_2\src\images\Game-of-Thrones-Desktop-images.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 2560px;
+    height: 1350px;
+    object-fit: contain;
+    margin: 0%;
+    padding: 20px;
+}
+
+
+div > h2{
+    color: white;
+}
+
+.details {
+    z-index: 3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 24px 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    animation: fadeIn 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.content{
+    width: 570px;
+}
+.main_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+
+.NewButton {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1.25px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.NewButton {
+    font-size: 14px;
+    padding: 14px 22px;
+}
+
+.NewButton--high-emphasis {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 9%;
+}
+
+.MenuButton-1{
+    color: white;
+}
+
+.NewButton--medium-emphasis {
+    color: var(--white);
+    background-color: transparent;
+    border: 2px solid var(--white)
+}
+
+P{
+    color: white;
+}
+
+.title {
+    color: white;
+}
+

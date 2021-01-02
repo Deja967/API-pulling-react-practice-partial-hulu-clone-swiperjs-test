@@ -1,0 +1,12 @@
+.popular_header{
+    margin-top: 10px;
+    padding-left: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.MuiSvgIcon-root.play {
+    position: "relative" !important;
+    top: 90% !important;
+    bottom: 50% !important;
+}
